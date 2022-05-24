@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./image/galx.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card{
+    border-radius: 8px;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    border: solid 1px blue;
+    box-shadow: inset 10px 5px 0;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-profile{
+    display: flex;
+    align-items: center;
+
+}
+.card-profile img{
+    width: 40px;
+}
+.card-profile span{
+     padding-left: 10px;
+ }
+
+.card-button-plus-minus{
+color: blueviolet;
+padding-left: 10px;
+padding-right: 10px;
+background-color: bisque;
+border-radius: 8px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.card-button-plus-minus button{
+    background-color: transparent;
+    border: none;
+}
+.card-header-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.comment-container{
+    width: 800px;
+}  
+
+.flex-grow textarea{
+    color: blueviolet;
+    padding-left: 530px;
+    padding-right: 10px;
+    background-color: bisque;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;}
+
